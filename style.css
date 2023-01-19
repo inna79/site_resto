@@ -99,7 +99,7 @@ nav ul li a{
     }
 }
 .image{
-    background: url(/image/pexels-rachel-claire-5865282.jpg) no-repeat;
+    background: url(/pexels-rachel-claire-5865282.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: calc(110vh - 80px);
