@@ -58,10 +58,10 @@ nav ul li a{
 #check{
     display: none;
 }
-@media (max-width: 925px) {
+@media (max-width: 567px) {
     .logo{
-        font-size: 30px;
-        padding-left: 50px;
+        font-size: 18px;
+        padding-left: 20px;
     }
     nav ul li a{
         font-size: 16px;
