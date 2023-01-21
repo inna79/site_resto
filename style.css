@@ -25,8 +25,8 @@ nav{
 }
 
 nav ul{
-    /* float: right; */
     margin-right: 20px;
+    z-index: 2;
 }
 nav ul li{
     display: inline-block;
@@ -64,6 +64,27 @@ div.titre{
     color:rgb(255, 191, 0);
     text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.932);
 }
+.image{
+    position: relative;
+    background: url(image/pexels-rachel-claire-5865282.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image:before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.233);
+    position: absolute ;
+    top: 0;
+    left: 0;
+
+}
 
 @media (max-width: 567px) {
     .logo{
@@ -74,10 +95,14 @@ div.titre{
         font-size: 16px;
     }
     .image{
-        padding: 70px;
+        padding: 50px;
+    align-items: unset;
+          
     }
     div.titre{
         font-size: 40px;
+        /* padding: 20px;
+        padding-bottom: 350px; */
     }
   
 }
@@ -112,26 +137,5 @@ div.titre{
         left: 0;
     }
 }
-.image{
-    position: relative;
-    background: url(image/pexels-rachel-claire-5865282.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: calc(100vh - 80px);
-    display: flex;
-    /* align-items: center; */
-    padding-top: 30px;
-    justify-content: center;
-}
-.image:before{
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.233);
-    position: absolute ;
-    top: 0;
-    left: 0;
 
-}
 
