@@ -59,20 +59,11 @@ nav ul li a{
     display: none;
 }
 div.titre{
-    font-size: 40px;
-    font-family: 'Lobster';
-    color: rgba(255, 181, 33, 0.932);
+    font-size: 60px;
+    font-family: 'Satisfy', cursive;
+    color:rgb(255, 191, 0);
     text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.932);
-    margin-left: 37%;
-    position: relative;
-    top: 50px;
 }
-    /* background-color: rgba(82, 43, 43, 0.623);
-    width: 350px; */
-    /* border-radius: 5px;
-    box-sizing: border-box;
-    margin: auto;
-    padding: 5px; */
 
 @media (max-width: 567px) {
     .logo{
@@ -81,6 +72,12 @@ div.titre{
     }
     nav ul li a{
         font-size: 16px;
+    }
+    .image{
+        padding: 70px;
+    }
+    div.titre{
+        font-size: 40px;
     }
   
 }
@@ -116,9 +113,25 @@ div.titre{
     }
 }
 .image{
+    position: relative;
     background: url(image/pexels-rachel-claire-5865282.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    height: calc(110vh - 80px);
+    height: calc(100vh - 80px);
+    display: flex;
+    /* align-items: center; */
+    padding-top: 30px;
+    justify-content: center;
+}
+.image:before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.233);
+    position: absolute ;
+    top: 0;
+    left: 0;
+
 }
 
