@@ -85,6 +85,38 @@ div.titre{
     left: 0;
 
 }
+h2{
+    font-size: 60px;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    padding: 20px;
+}
+table{
+    width: 100%;
+    margin: 0 auto 50px;
+    max-width: 300px;
+}
+table tr, th {
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    /* padding-left: 70px; */
+    text-align: left;
+ 
+
+  }
+  section div table tr.noir{
+    color: black;
+  }
+  section div table td.red{
+    color: red
+  }
+/* section.horaires {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+} */
 
 @media (max-width: 567px) {
     .logo{
