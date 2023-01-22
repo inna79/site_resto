@@ -14,6 +14,9 @@ nav{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 2;
 }
 .logo{
     color: black;
@@ -73,6 +76,7 @@ div.titre{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 80px;
 }
 .image:before{
     content: '';
@@ -107,7 +111,8 @@ section div table tr.noir{
     color: black;
   }
 section div table td.red{
-    color: red
+    color: red;
+    text-align: right;
   }
 /* section.horaires {
     height: 80px;
@@ -115,8 +120,7 @@ section div table td.red{
     display: flex;
     justify-content: space-between;
 } */
-.services{
-    position: relative;
+/* .services{
     background: url(image/pexels-marta-siedlecka-440182.jpg) no-repeat;
     padding: 20px;
     background-size: cover;
@@ -125,6 +129,18 @@ section div table td.red{
     display: flex;
     align-items: center;
     justify-content: center;
+
+} */
+img{
+    width: 100%;
+   
+}
+div.services.img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+ 
+    
 
 }
 
