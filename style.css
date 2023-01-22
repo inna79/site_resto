@@ -87,7 +87,6 @@ div.titre{
     position: absolute ;
     top: 0;
     left: 0;
-
 }
 h2{
     font-size: 60px;
@@ -120,29 +119,17 @@ section div table td.red{
     display: flex;
     justify-content: space-between;
 } */
-/* .services{
-    background: url(image/pexels-marta-siedlecka-440182.jpg) no-repeat;
-    padding: 20px;
+.services{
+    background: url(image/pexels-vidal-balielo-jr-4006865.jpg) 100% no-repeat;
     background-size: cover;
-    background-position: center;
-    height: calc(100vh - 80px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-} */
-img{
-    width: 100%;
-   
+    height: 200px;
+    /* background-position: center; */
+    /* width: 100%;
+    height: 100vh; */
+    /* display: flex;
+    justify-content: center; */
 }
-div.services.img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
- 
-    
 
-}
 
 @media (max-width: 567px) { 
     .logo{
@@ -162,7 +149,7 @@ div.services.img{
         /* padding: 20px;
         padding-bottom: 350px; */
     }
-  
+ 
 }
 @media(max-width: 858px) {
     .checkbtn{
@@ -194,6 +181,8 @@ div.services.img{
     #check:checked ~ ul{
         left: 0;
     }
+  
+  
 }
 
 
