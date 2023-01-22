@@ -116,11 +116,19 @@ section div table td.red{
     justify-content: space-between;
 } */
 .services{
-    background: url(image/);
-    
+    position: relative;
+    background: url(image/pexels-marta-siedlecka-440182.jpg) no-repeat;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-@media (max-width: 567px) {
+@media (max-width: 567px) { 
     .logo{
         font-size: 18px;
         padding-left: 20px;
