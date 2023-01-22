@@ -102,13 +102,11 @@ table tr, th {
     font-weight: bold;
     /* padding-left: 70px; */
     text-align: left;
- 
-
   }
-  section div table tr.noir{
+section div table tr.noir{
     color: black;
   }
-  section div table td.red{
+section div table td.red{
     color: red
   }
 /* section.horaires {
@@ -117,6 +115,10 @@ table tr, th {
     display: flex;
     justify-content: space-between;
 } */
+.services{
+    background: url(image/);
+    
+}
 
 @media (max-width: 567px) {
     .logo{
