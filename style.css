@@ -95,7 +95,7 @@ h2{
     padding: 20px;
 }
 .horaires{
-    background: rgba(226, 185, 96, 0.493);
+    background: #fffbf7;
     padding: 20px;
 }
 table{
@@ -141,7 +141,7 @@ section div table td.red{
     border-radius: 50%;
     width: 140px;
     height: 140px;
-    background: #f3dbb4;
+    background: #fffbf7;
     line-height: 140px;
     margin: 0 0 10px;
 }
