@@ -122,7 +122,6 @@ section div table td.red{
 .services{
     background: url(image/pexels-tirachard-kumtanom-347139.jpg) center 80%/cover no-repeat;
     height: 60vh;
-
 }
 .icon{
     display: inline-block;
@@ -164,9 +163,7 @@ span.material-icons {
     font-size: 20px;
     font-weight: bold;
 }
-
-
-
+ 
 
 @media (max-width: 567px) { 
     .logo{
