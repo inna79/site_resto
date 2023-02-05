@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
 }
- body{
+body {
     font-family: montserrat;
 }
-nav{
+nav {
     background: rgb(240, 10, 10);
     height: 80px;
     width: 100%;
@@ -18,7 +18,7 @@ nav{
     top: 0;
     z-index: 2;
 }
-.logo{
+.logo {
     color: black;
     font-size: 30px;
     line-height: 80px;
@@ -27,29 +27,43 @@ nav{
     text-decoration: none;
 }
 
-nav ul{
+nav ul {
     margin-right: 20px;
     z-index: 2;
+    display: flex;
+    align-items: center;
 }
-nav ul li{
+nav ul li {
     display: inline-block;
-    line-height: 80px;
+    /* line-height: 80px; */
     margin: 0 5px;
 }
-nav ul li a{
+nav ul li a {
     color: white;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
 }
-.menu a:hover{
+
+.social-link svg path {
+    fill: #fff;
+}
+.menu a:hover {
     padding: 5px;
     background: rgb(61, 45, 45);
     transition: 0.5s;
     text-decoration: underline;
 }
-.checkbtn{
+.social-link a:hover {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    background: transparent;
+}
+.checkbtn {
     font-size: 30px;
     color: black;
     float: right;
@@ -58,16 +72,16 @@ nav ul li a{
     cursor: pointer;
     display: none;
 }
-#check{
+#check {
     display: none;
 }
-div.titre{
+div.titre {
     font-size: 60px;
-    font-family: 'Satisfy', cursive;
-    color:rgba(231, 222, 222, 0.932);
+    font-family: "Satisfy", cursive;
+    color: rgba(231, 222, 222, 0.932);
     text-shadow: 4px 4px 5px rgba(228, 141, 12, 0.966);
 }
-.image{
+.image {
     position: relative;
     background: url(image/pexels-rachel-claire-5865282.jpg) no-repeat;
     background-size: cover;
@@ -78,62 +92,63 @@ div.titre{
     justify-content: center;
     margin-top: 80px;
 }
-.image:before{
-    content: '';
+.image:before {
+    content: "";
     display: block;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.233);
-    position: absolute ;
+    position: absolute;
     top: 0;
     left: 0;
 }
-h2{
+h2 {
     font-size: 60px;
-    font-family: 'Satisfy', cursive;
+    font-family: "Satisfy", cursive;
     text-align: center;
     padding: 20px;
 }
-.horaires{
+.horaires {
     background: #fffbf7;
     padding: 20px;
 }
-table{
+table {
     width: 100%;
     margin: 0 auto 50px;
     max-width: 300px;
 }
-table tr, th {
+table tr,
+th {
     border: none;
     font-size: 18px;
     font-weight: bold;
     /* padding-left: 70px; */
     text-align: left;
-  }
-section div table tr.noir{
+}
+section div table tr.noir {
     color: black;
-  }
-section div table td.red{
+}
+section div table td.red {
     color: red;
     text-align: right;
-  }
+}
 
-
-.services{
-    background: url(image/pexels-tirachard-kumtanom-347139.jpg) center 80%/cover no-repeat;
+.services {
+    background: url(image/pexels-tirachard-kumtanom-347139.jpg) center 80% /
+        cover no-repeat;
     height: 60vh;
 }
-.icon{
+.icon {
     display: inline-block;
     text-decoration: inherit;
 }
-.services .services-list{
+.services .services-list {
     list-style: none;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
 }
-.services .services-list .icon{
+.services .services-list .icon {
     border: 3px solid rgba(223, 160, 160, 0.651);
     border-radius: 50%;
     width: 140px;
@@ -147,7 +162,7 @@ section div table td.red{
 }
 
 span.material-icons {
-    font-family: 'Material Icons';
+    font-family: "Material Icons";
     /* font-weight: normal; */
     /* font-style: normal; */
     font-size: 60px; /*  Preferred icon size */
@@ -160,43 +175,40 @@ span.material-icons {
     white-space: nowrap;
     direction: ltr; */
 }
-.services-text{
+.services-text {
     font-size: 20px;
     font-weight: bold;
 }
-table.menu-list{
+table.menu-list {
     width: 100%;
     margin: 0 auto 50px;
     max-width: 800px;
     text-align-last: center;
 }
 
-
-@media (max-width: 567px) { 
-    .logo{
+@media (max-width: 567px) {
+    .logo {
         font-size: 18px;
         padding-left: 20px;
     }
-    nav ul li a{
+    nav ul li a {
         font-size: 16px;
     }
-    .image{
+    .image {
         padding: 50px;
-    align-items: unset;
-          
+        align-items: unset;
     }
-    div.titre{
+    div.titre {
         font-size: 40px;
         /* padding: 20px;
         padding-bottom: 350px; */
     }
- 
 }
-@media(max-width: 858px) {
-    .checkbtn{
+@media (max-width: 858px) {
+    .checkbtn {
         display: block;
     }
-    .menu{
+    .menu {
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -206,24 +218,20 @@ table.menu-list{
         text-align: center;
         transition: all 0.5s;
     }
-    nav ul li{
+    nav ul li {
         display: block;
         margin: 50px 0;
         line-height: 30px;
-    } 
-    nav ul li a{
+    }
+    nav ul li a {
         font-size: 20px;
         color: black;
     }
-    .menu a:hover{
+    .menu a:hover {
         background: none;
         color: white;
     }
-    #check:checked ~ ul{
+    #check:checked ~ ul {
         left: 0;
     }
-  
-  
 }
-
-
