@@ -149,12 +149,44 @@
     <section class="contacts_general">
 
         <h2 class="contacts">Contacts</h2>
-        
-        <div class="contact_info"></div>
-            <div class="info adress">adress</div>
-            <div class="info mail">mail</div>
-            <div class="info telephone">telephone</div>
+        <div class="contact-info">
+            <div class="contact-item">
+                <h3>Nous trouver</h3>
+                <p>
+                    avenue cap de croix 14<br />
+                    6100 Nice<br />
+                    France
+                </p>
+            </div>
+            <div class="contact-item">
+                <h3>Nous contacter <br> par e-mail</h3>
+                <p>nc@nc.fr</p>
+            </div>
+            <div class="contact-item">
+                <h3>Nous contacter par téléphone</h3>
+                <p>+33624809189</p>
+            </div>
         </div>
+        <h2 class="form-title">Envoyez-nous un message</h2>
+        <form class="contact-form">
+
+            <p class="name">
+                <input name="name" type="text" class="feedback-input" placeholder="Prénom" id="name" />
+            </p>
+
+            <p class="email">
+                <input name="email" type="text" class="feedback-input" id="email" placeholder="Email" />
+            </p>
+
+            <p class="text">
+                <textarea name="text" class="feedback-input" id="message" placeholder="Message"></textarea>
+            </p>
+
+            <div class="submit">
+                <input type="submit" value="ENVOYER" id="button-blue" />
+            </div>
+        </form>
+    
 
         <div class="container_contact">
             <iframe
