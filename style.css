@@ -231,7 +231,7 @@ table.menu-list {
 
 .feedback-input:focus {
     box-shadow: 0;
-    color: #3498db;
+    color: red;
     transition: 0.4s ease;
     outline: none;
     border-bottom: 2px solid black;
@@ -255,8 +255,8 @@ textarea {
     width: 100%;
     border: none;
     cursor: pointer;
-    background-color: #d1c3c3da;
-    color: rgb(61, 55, 55);
+    background-color: #e5e5e5;
+    color: rgb(70, 67, 67);
     font-size: 24px;
     padding-top: 22px;
     padding-bottom: 22px;
@@ -308,6 +308,28 @@ textarea {
 .form-title {
     font-size: 40px;
     color: red;
+}
+
+footer {
+    background: #292929;
+    padding: 40px 0;
+}
+
+.footer-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-menu a {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
 }
 
 
