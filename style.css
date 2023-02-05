@@ -164,7 +164,13 @@ span.material-icons {
     font-size: 20px;
     font-weight: bold;
 }
- 
+table.menu-list{
+    width: 100%;
+    margin: 0 auto 50px;
+    max-width: 800px;
+    text-align-last: center;
+}
+
 
 @media (max-width: 567px) { 
     .logo{
