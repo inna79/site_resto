@@ -126,6 +126,13 @@ th {
     /* padding-left: 70px; */
     text-align: left;
 }
+.assortiment p {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
 section div table tr.noir {
     color: black;
 }
@@ -183,6 +190,21 @@ table.menu-list {
     width: 100%;
 }
 
+
+
+.contact_info{
+    display: flex;
+    width: 500px;
+    background: red;
+}
+.info .adress{
+    background: green;
+    width: 100px;
+}
+
+
+
+
 @media (max-width: 567px) {
     .logo {
         font-size: 18px;
@@ -214,6 +236,7 @@ table.menu-list {
         left: -100%;
         text-align: center;
         transition: all 0.5s;
+        display: block;
     }
     nav ul li {
         display: block;
@@ -232,5 +255,3 @@ table.menu-list {
         left: 0;
     }
 }
-
-
