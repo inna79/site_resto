@@ -168,13 +168,6 @@ span.material-icons {
     /* font-style: normal; */
     font-size: 60px; /*  Preferred icon size */
     color: red;
-    /* display: inline-block;
-    line-height: 1; */
-    /* text-transform: none;
-    letter-spacing: normal;
-    word-wrap: normal;
-    white-space: nowrap;
-    direction: ltr; */
 }
 .services-text {
     font-size: 20px;
@@ -185,6 +178,9 @@ table.menu-list {
     margin: 0 auto 50px;
     max-width: 800px;
     text-align-last: center;
+}
+.contacts_general iframe {
+    width: 100%;
 }
 
 @media (max-width: 567px) {
