@@ -223,7 +223,7 @@ table.menu-list {
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    border-bottom: 2px solid #22a7f0;
+    border-bottom: 2px solid #f02222;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -239,7 +239,7 @@ table.menu-list {
 }
 
 .focused {
-    color: #30aed6;
+    color: #d63030;
     border: #30aed6 solid 3px;
 }
 
