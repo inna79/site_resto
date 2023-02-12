@@ -14,6 +14,7 @@ $(window)
     .scroll();
 
 //Scroll to anchor
+const check = $("#check")
 
 $(function () {
     $('a[href*="#"]:not([href="#"])').click(function () {
@@ -23,6 +24,8 @@ $(function () {
         //            $(this).removeClass('active');
         //        })
         //        $(this).addClass('active');
+        check.prop("checked", false)
+        console.log(check.attr("checked"))
         if (
             location.pathname.replace(/^\//, "") ===
                 this.pathname.replace(/^\//, "") &&
