@@ -144,7 +144,7 @@ section div table td.red {
 .services {
     background: url(image/pexels-tirachard-kumtanom-347139.jpg) center 80% /
         cover no-repeat;
-    height: 60vh;
+        padding-bottom: 30px;
 }
 .icon {
     display: inline-block;
@@ -320,11 +320,12 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 20px;
+    flex-direction: column;
 }
 
 .footer-menu a {
     color: #fff;
-    font-size: 18px;
+    font-size: 14px;
     text-transform: uppercase;
 }
 
@@ -351,6 +352,15 @@ footer {
         font-size: 40px;
         /* padding: 20px;
         padding-bottom: 350px; */
+    }
+    .services .services-list{
+        flex-direction: column;
+    }
+    .services .services-list .icon{
+        margin: 0 auto;
+    }
+    .services-list li{
+        margin-bottom: 30px;
     }
 }
 @media (max-width: 858px) {
@@ -387,7 +397,7 @@ footer {
     .contact-info {
         flex-direction: column;
     }
-    
+
     .contact-item {
         margin-bottom: 20px;
     }
